@@ -36,9 +36,9 @@ jobs:
         working-directory: src
         run: |
           helm repo index ./temp --merge ../dest/index.yaml --url https://raw.githubusercontent.com/eduardo854/helm-repository/gh-pages/helm/
-          mkdir -p ../dest/helm
           echo "Copying files..."
           shopt -s extglob
+          mkdir -p ./helm/
           echo "n" | cp -pr ./temp/!(index.yaml) ../dest/helm/
           echo "n" | cp -pr ./temp/!(index.yaml) ./helm/
           echo "n" | cp -pr ./temp/index.yaml ../dest/

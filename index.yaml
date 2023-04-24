@@ -3,6 +3,16 @@ entries:
   test-app:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-04-24T20:23:48.469340735Z"
+    description: A Helm chart for Kubernetes
+    digest: 85994461bf04b63e86750c0d90aaf4b05a1300dd0e75e015d2732e17d0dc7b76
+    name: test-app
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/eduardo854/helm-repository/gh-pages/helm/test-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-04-24T17:57:33.179448294Z"
     description: A Helm chart for Kubernetes
     digest: c610aa8d6b784a4a128c70febc806ea04660fd8e778bd10e66931f315899efe2
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/eduardo854/helm-repository/gh-pages/helm/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-24T17:57:33.178730302Z"
+generated: "2023-04-24T20:23:48.468484538Z"
